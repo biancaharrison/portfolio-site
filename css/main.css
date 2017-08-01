@@ -1,0 +1,149 @@
+/******BASE STYLES *****/
+
+body {
+  font-family: 'raleway', sans-serif;
+  background-color: #fffcf9;
+}
+
+#about {
+  height: 600px;
+}
+
+#work {
+  height: 600px;
+  background-color: #ff6978;
+  clear: both;
+}
+
+#contact {
+  height: 300px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height: 900px;
+  background: url('../img/header.png');
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-style: italic;
+  color: #352d39;
+  clear: both;
+  margin: 0px;
+}
+
+#nav {
+  float: right;
+  padding-bottom: 250px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 400;
+  color: #352d39;
+}
+
+header h2 {
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #352d39;
+  text-transform: uppercase;
+  text-indent: 150px;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 115px 0;
+}
+
+#about h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #ff6978;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+  color: #352d39;
+  line-height: 30px;
+  padding-right: 50px;
+}
+
+#about-me-img {
+  padding-left: 100px;
+}
+
+/****** WORK ******/
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #fffcf9;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+#work p {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 72px;
+  color: #fffcf9;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/***** CONTACT *****/
+
+footer {
+  padding: 80px 0;
+}
+
+#contact h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #352d39;
+  text-transform: uppercase;
+}
+
+#contact p {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #352d39;
+}
+
+footer a {
+  text-decoration: none;
+  color: #352d39;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+}
